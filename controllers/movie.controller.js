@@ -65,7 +65,6 @@ const getDetail = (req, res) => {
   }
 };
 const create = (req, res) => {
-  const { id } = req.params;
   const { name, totalMovieTime, poster, trailer } = req.body;
 
   const newMovie = {
